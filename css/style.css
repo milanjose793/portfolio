@@ -89,7 +89,7 @@ font-family: 'Vina Sans', sans-serif;
    
    border: 2px slod black;
    border-bottom-right-radius: 3rem ;
-   border-bottom-left-radius: 3rem;
+   
 
 }
 
@@ -138,11 +138,13 @@ main{
    
    
     margin-top:0px;  
+    margin-bottom: 2rem;
     
 }
 
 .heading{
-    padding: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     color: rgb(19, 18, 18);
     font-size: 3rem;
     text-align: center;
@@ -226,6 +228,8 @@ gap: 10px;
 .soc-icon a:hover{
     background-color:whitesmoke;
 }
+
+
 /*-------------youtube-----------------*/
 
 
