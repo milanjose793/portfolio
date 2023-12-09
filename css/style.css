@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(205, 205, 211);
+    width: 100%;
+    
+   
+}
+
+
+header{
+    width:100%;
+    
+  
+    
+}
+
+
+list{
+    list-style: none;
+}
+.nav-bar{
+   
+    
+    width: 100%;
+    min-height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    background-color:black;
+   
+}
+
+
+
+.nav-branding{
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Vina Sans', sans-serif;
+}
+
+
+.hamburger{
+    display: block;
+}
+
+
+
+
+
+
+
+.bar{
+    display: block;
+   height: 3px;
+   width: 25px;
+   background-color:rgb(205, 205, 211);
+   margin: 5px auto;
+   
+   
+}
+.hamburger.active .bar:nth-child(2){
+    opacity: 0; 
+}
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+.nav-menu{
+    position: sticky;
+    
+    background-color: black;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    height: 500px;
+    width: 100vw;
+   display: none;
+   
+   border: 2px slod black;
+   border-bottom-right-radius: 3rem ;
+   border-bottom-left-radius: 3rem;
+
+}
+
+.nav-menu li{
+    padding-top: 2rem;
+    list-style: none;
+    width: fit-content;
+    
+}
+
+
+.nav-link{
+    width: fit-content;
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    border-bottom: 2px solid black;
+  
+}
+
+.red{
+    color: rgb(126, 11, 11);
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 100vw;
+    
+    background-repeat: no-repeat;
+   background-size: cover;
+    
+}
+
+.home{
+   
+   
+    margin-top:0px;  
+    
+}
+
+.heading{
+    padding: 1.5rem;
+    color: rgb(19, 18, 18);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Vina Sans', sans-serif;
+}
+.profilepic{
+
+    
+    border-radius: 60%;
+}
+.img-section{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.frent-text-card{
+    display: flex; 
+    height:auto;
+
+    flex-direction: column;
+    align-items: center;
+
+}
+.p1{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+}
+.p2{
+    margin:0;
+    padding: 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.tag{
+    color: blue;
+    font-weight: bold;
+    white-space:nowrap;
+    font-size: 1rem;
+}
+.qoute{
+    text-align: center;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(219, 219, 9, 0.733);
+    margin: 1rem;
+    
+    
+    font-size: 1rem;
+}
+.soc-icon{
+ 
+display: flex;
+float: row;
+justify-content: space-around;
+gap: 10px;
+
+}
+.soc-icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    
+    height: 55px;
+    width: 55px;
+
+}
+.soc-icon a{
+    background-color:  rgb(205, 205, 211);;
+}
+.soc-icon a:hover{
+    background-color:whitesmoke;
+}
+/*-------------youtube-----------------*/
+
+
+.youtube-section
+{ padding-top: 2rem;
+    padding-bottom: 1rem;
+   width: 90vw;
+   height:50dvh;
+}
+
+
+/*width="560" height="315"*/
+.youtube-section iframe{
+   
+    
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-----------About-------------*/
+.about-img-writing{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color:#9c6644;
+    align-items:center;
+    justify-content: center;
+    
+    
+    
+}
+
+
+.wall{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: fit-content;
+    flex-flow: row wrap;
+    border: 1px solid none;
+   margin: 1rem;
+   
+   
+    background-color:rgba(252, 250, 250, 0.911);
+    border-radius: 2rem;
+}
+.wall img{
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 2px solid none;
+
+}
+.sideimage{
+    height: 400px;
+    width: auto;
+    margin: 1rem;
+}
+  
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.about-data{
+font-weight: bolder;
+font-size: large;
+width: 80%;
+height: fit-content;
+align-self: center;
+text-align: left;
+white-space: wrap;
+
+
+}
+
+
+.xx{
+    font-weight: bolder;
+}
+   /*-----------seemywork------------------*/
+   .see-my-work{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+  
+   }
+   .see-my-work div{
+    
+    padding: 5px;
+    border-radius:2rem 2rem 2rem 2rem;
+    
+   }
+   .see-my-work div:hover{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(167,81,172,1) 55%, rgba(252,70,107,1) 100%);
+
+   }
+  
+.see-my-work img{
+    width: 100%;
+    height: 400px;
+    border-radius:2rem 2rem 2rem 2rem;
+    border: 2px solid transparent;
+    
+    
+}
+
+
+
+
+
+/*-----------service--------------*/
+.group-cards{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-flow: row wrap;
+    padding: 1.5rem;
+
+}
+    
+
+.card-title{
+    font-family: 'Roboto', sans-serif;
+font-weight: bold;
+    font-size: 1.5rem;
+   
+}/*
+
+
+
+/*-------contact--------*/
+
+.contact{
+    
+    min-height: 70vh;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.contact-box{
+  
+ align-self: center;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+
+
+.contact-box input{
+    
+    text-align: left;
+    position: relative;
+    width:150px;
+    padding: 10px 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+    color: #fff;
+    font-size: .8rem;
+    letter-spacing: 0.15em;
+
+}
+form{
+    background-color: #29313c;
+    padding: 60px 80px 60px ;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px;
+    align-items: center;
+    
+}
+
+
+
+.subbtn{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 2rem;
+    border: 0;
+    background-color: rgb(36, 92, 170);
+    color: whitesmoke;
+    font-weight:bold;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+
+    
+
+.subbtn:hover{
+    background-color: rgb(57, 8, 85);
+}
+
+
+
+.list-meanu{
+    display: none;
+}
+
+
+
+
+
+
+/*===================================tablet=========================================================*/
+@media only screen and (min-width:800px) {
+  .hamburger{
+    display: none;
+  }
+  .list-meanu{
+    padding-top: 1rem;
+    display: block;
+    width: 60%;
+  }
+  
+  .list-meanu ul{
+    width:100%;
+    height:fit-content;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+
+  }
+  .li{
+    list-style: none;
+    width: fit-content;
+    height:25px;
+    text-align: center;
+   
+    font-weight: bold;
+   
+  }
+  .li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.4rem;
+    border-bottom: 2px solid black;
+    
+  }
+  .li a:hover{
+    border-bottom: 2px solid whitesmoke;
+  }
+  /*===========Home===============*/
+
+.tag{
+    color: blue; 
+    .soc-icon a:hover{
+        background-color: rgb(250, 250, 250);
+    }
+    font-weight: bold;
+    white-space:nowrap;
+    font-size: 1.5rem;
+}
+.qoute{
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(218, 218, 16, 0.555);
+    
+    
+    font-size: 1rem;
+}
+.soc-icon{
+    margin-top: 1rem;
+ 
+display: flex;
+float: row;
+justify-content: space-around;
+gap: 10px;
+    padding:1rem;
+
+}
+.soc-icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px ;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+
+    height: 60px;
+    width: 60px;
+
+}
+
+
+/*===========service===============*/
+.group-cards{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    gap:4rem;
+    
+    
+    
+}
+/*=============about====================*/
+.youtube-section
+{ padding-top: 2rem;
+    padding-bottom: 1rem;
+   width: 90vw;
+   height:80dvh;
+}
+
+}
+
+
+
+/*===================================laptop=========================================================*/
+@media only screen and (min-width:1024px) {
+
+    .hamburger{
+        display:none;
+      }
+      
+   /*==============================================*/
+    .home{
+        height: 80vh;
+        
+    }
+    .profilepic{
+
+    padding-top: 2rem;
+        border-radius: 50%;
+    }
+    .img-section{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    
+    
+    .p2{
+        margin:0;
+        padding: 0;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .tag{
+        color: rgb(26, 26, 202);
+        font-weight: bold;
+        white-space:nowrap;
+        font-size: 2rem;
+    }
+    .qoute{
+        margin-top: 1.5rem;
+        text-align: center;
+        font-family: 'Noto Sans Malayalam', sans-serif;
+        font-weight: bold;
+        color: black;
+        background-color: rgba(218, 218, 16, 0.555);
+        
+        
+        font-size: 1rem;
+    }
+    .soc-icon{
+        margin-top: 1rem;
+     
+    display: flex;
+    float: row;
+    justify-content: space-around;
+    gap: 10px;
+   padding-bottom: 2rem;
+    
+    }
+    .soc-icon a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px ;
+        border-radius: 50%;
+        padding: 5px;
+        text-align: center;
+      
+        height: 60px;
+        width: 60px;
+    
+    }
+
+    .youtube-section
+{ padding-top: 2rem;
+    padding-bottom: 1rem;
+   width: 90vw;
+   height:100dvh;
+}
+   
+/*========================================about====================================================*/
+
+.about{
+    width: 100vw;
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-data{
+    margin-top: 1rem;
+    
+    width: 50%;
+    max-height: max-content;
+    border-radius: 1.5rem;
+   
+    text-align: center;
+   
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+   
+.image-wall{
+    width: 50%;
+    height: 400px;
+    border:2px solid black;
+    
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+   
+
+/*============================================contact==================================*/
+
+
+
+
+
+
+
+
+
+
+}
