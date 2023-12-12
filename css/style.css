@@ -372,16 +372,40 @@ white-space: wrap;
 font-weight: bold;
     font-size: 1.5rem;
    
-}/*
+}
+
+.lastimage{
+
+    width: 30%;
+     border-radius: 2rem;
+    margin: 1rem 0 0 1rem;
+    
+ }
+
+ .fainel-qoute-box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column;
+    background-color:rgb(8, 8, 8);
+    border-radius: 0 0 0 0;
+}
+
+.final-qoute{
+    align-self: center;
+    padding-left:2rem;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: whitesmoke;  
+    
+   
+}
+
 
 
 
 /*-------contact--------*/
 
-.final-qoute{
-    font-size: 1.2rem; 
-    font-weight: bold;
-}
+
 
 .contact{
     
@@ -570,11 +594,33 @@ gap: 10px;
    height:80dvh;
 }
 
-.final-qoute{
-    font-size: 1.8rem;
-    font-weight: bolder;
-    padding-right: 0;
+
+
+
+
+.fainel-qoute-box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    background-color:rgb(8, 8, 8);
+    border-radius: 0 0 0 0;
 }
+
+.final-qoute{
+    align-self: center;
+    padding-left:2rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: whitesmoke;  
+    
+   
+}
+.lastimage{
+
+   
+     margin: 2rem;
+ }
+
 
 
 }
@@ -701,13 +747,31 @@ gap: 10px;
 
 /*============================================contact==================================*/
 
+.fainel-qoute-box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    background-color:rgb(8, 8, 8);
+    border-radius: 0 0 0 0;
+}
 
 .final-qoute{
-    text-align: center;
-    font-size: 1.8rem;
-    font-family:cursive;
-    padding-right: 0;
+    align-self: center;
+    padding-left:2rem;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+    color: whitesmoke;  
+    
+   
 }
+.lastimage{
+
+   
+     margin: 2rem;
+ }
+
+
+
 
 
 
