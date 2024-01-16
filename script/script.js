@@ -21,7 +21,7 @@ const navmeanu = document.querySelector(".nav-meanu");
 */
 
    
-const scriptURL = `https://script.google.com/macros/s/AKfycbzqKXd7jaCjOViO7YbUsZbsjFECs7bGmRodMKsp3Hfw9BOmFL9v1zEQ0bisfCgGmc-z/exec`;
+const scriptURL = `https://script.google.com/macros/s/AKfycbwt2btO7P9Q9t5Q0EsDYUk_mPHyFEPXr0iVd0UtZ-T7EHVjyaaysjL1x6x50dnOmDjW6A/exec`;
 
 
 const form = document.querySelector("#form-data");
